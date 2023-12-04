@@ -13,20 +13,46 @@ En un institut dedicat als cicles superiors d'informàtica, la monotonia dels pr
 ### **Personatges**
 Converteix-te en professors transformats en guerrers:
 
-- **Imanol Valle 🎓**
+1. **Imanol Valle**
   ![Imanol Valle](./Projecte-GameDesign/x400/Personatges/imanol-400.png)
-  - *Habilitats:* Correcamins, Elegància, Level Design (Ultimate)
-  - *Arma:* Diploma
+   - **Habilitats:** Correcamins, Elegància, Level Design (Ultimate)
+   - **Armes:** Diploma
 
-- **Vladímir Bellavista ☕**
+2. **Vladímir Bellavista**
   ![Vladímir Bellavista](./Projecte-GameDesign/x400/Personatges/vladi-400.png)
-  - *Habilitats:* Colleja, Menysprear (àrea), Cafè (Ultimate)
-  - *Arma:* Punys
+   - **Habilitats:** Colleja, Menysprear (àrea), Cafè (Ultimate)
+   - **Armes:** Punys
 
-- **Sofia Torrado 🎨**
+3. **Sofia Torrado**
   ![Sofia Torrado](./Projecte-GameDesign/x400/Personatges/sofia-400.png)
-  - *Habilitats:* Macbook, Puas, Pinzellada (Ultimate)
-  - *Arma:* Pinzell gegant
+   - **Habilitats:** Macbook, Puas, Pinzellada (Ultimate)
+   - **Armes:** Pinzell gegant
+
+4. **Ivan Nieto**
+![Ivan Nieto](./Projecte-GameDesign/x400/Personatges/ivan-400.png)
+   - **Habilitats:** Abraçada, Cabreig, Base de Dades (Ultimate)
+   - **Armes:** ThinkPad
+
+5. **Joan Pardo**
+![Joan Pardo](./Projecte-GameDesign/x400/Personatges/Joan-400.png)
+   - **Habilitats:** Pull, Pizarrazo, Transformació (Ultimate)
+   - **Armes:** A mà oberta
+
+6. **Rubèn Martínez**
+![Ruben](./Projecte-GameDesign/x400/Personatges/ruben-400.png)
+   - **Habilitats:** Donete, Donete Caducat, Pluja de Donetes (Ultimate)
+   - **Armes:** Donetes (a distància)
+
+7. **Salvador Quadrades**
+  ![Salvador Quadrades](./Projecte-GameDesign/x400/Personatges/Salva-400.png)
+   - **Habilitats:** Anchored, Begudes cod zombis, Multiply (Ultimate)
+   - **Armes:** Raygun
+
+8. **???**
+![???](./Projecte-GameDesign/x400/Personatges/???-400.png)
+   - **Habilitats:** Change, Buff, Configurar impressora (Ultimate)
+   - **Armes:** Totes
+
 
 ...
 
