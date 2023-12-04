@@ -77,3 +77,5 @@ Converteix-te en professors transformats en guerrers:
 
 ## **Contacte i Diversió 🚀**
 Per a més informació, contacta'ns a [Duck4hats@gmail.com](mailto:duck4hats@gmail.com). ¡Que comenci la diversió a Smash Ginebró! 🌟
+
+![Referència](https://github.com/L4igi/PlatformFighterGodot)
