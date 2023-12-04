@@ -1,3 +1,8 @@
-# Smash-Ginebro
-Joc fet en Godot, fent parodia amb els professors de DAM de l'escola Ginebró
+# Título de tu Proyecto
 
+Descripción breve de tu proyecto.
+
+## Presentación
+
+
+Otra información sobre tu proyecto...
