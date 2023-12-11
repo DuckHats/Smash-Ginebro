@@ -1,8 +1,53 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Escenas/Mode.gd" type="Script" id=1]
+[ext_resource path="res://Projecte-GameDesign/Interfaces/Buttons/Button_Story_pressed.png" type="Texture" id=2]
+[ext_resource path="res://Projecte-GameDesign/Interfaces/Buttons/Button_QuickGame.png" type="Texture" id=3]
+[ext_resource path="res://Projecte-GameDesign/Interfaces/Buttons/Button_Quit_pressed.png" type="Texture" id=4]
+[ext_resource path="res://Projecte-GameDesign/Interfaces/Buttons/Button_QuickGame_pressed.png" type="Texture" id=5]
+[ext_resource path="res://Projecte-GameDesign/Interfaces/Buttons/Button_Tournament_pressed.png" type="Texture" id=6]
+[ext_resource path="res://Projecte-GameDesign/Interfaces/Buttons/Button_Story.png" type="Texture" id=7]
+[ext_resource path="res://Projecte-GameDesign/Interfaces/Buttons/Button_Tournament.png" type="Texture" id=8]
+[ext_resource path="res://Projecte-GameDesign/Interfaces/Buttons/Button_Quit.png" type="Texture" id=9]
 
 [node name="Mode" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 1 )
+
+[node name="QPButton" type="TextureButton" parent="."]
+margin_left = 145.0
+margin_top = 41.0
+margin_right = 193.0
+margin_bottom = 81.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 5 )
+
+[node name="StoryButton" type="TextureButton" parent="."]
+margin_left = 41.0
+margin_top = 13.0
+margin_right = 89.0
+margin_bottom = 53.0
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 2 )
+
+[node name="TournamentButton" type="TextureButton" parent="."]
+margin_left = 38.0
+margin_top = 33.0
+margin_right = 86.0
+margin_bottom = 73.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 6 )
+
+[node name="BackButton" type="TextureButton" parent="."]
+margin_left = 40.0
+margin_top = 57.0
+margin_right = 88.0
+margin_bottom = 97.0
+texture_normal = ExtResource( 9 )
+texture_pressed = ExtResource( 4 )
+
+[connection signal="button_up" from="QPButton" to="." method="_on_QPButton_button_up"]
+[connection signal="button_up" from="StoryButton" to="." method="_on_StoryButton_button_up"]
+[connection signal="button_up" from="TournamentButton" to="." method="_on_TournamentButton_button_up"]
+[connection signal="button_up" from="BackButton" to="." method="_on_BackButton_button_up"]
