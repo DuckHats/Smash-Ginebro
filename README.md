@@ -29,12 +29,12 @@ Converteix-te en professors transformats en guerrers:
    - **Armes:** Pinzell gegant
 
 4. **Ivan Nieto**
-![Ivan Nieto](./Projecte-GameDesign/x400/Personatges/ivan-400.png)
+![Ivan Nieto](./Projecte-GameDesign/x400/Personatges/Ivan-400.png)
    - **Habilitats:** Abraçada, Cabreig, Base de Dades (Ultimate)
    - **Armes:** ThinkPad
 
 5. **Joan Pardo**
-![Joan Pardo](./Projecte-GameDesign/x400/Personatges/Joan-400.png)
+![Joan Pardo](./Projecte-GameDesign/x400/Personatges/joan-400.png)
    - **Habilitats:** Pull, Pizarrazo, Transformació (Ultimate)
    - **Armes:** A mà oberta
 
@@ -44,7 +44,7 @@ Converteix-te en professors transformats en guerrers:
    - **Armes:** Donetes (a distància)
 
 7. **Salvador Quadrades**
-  ![Salvador Quadrades](./Projecte-GameDesign/x400/Personatges/Salva-400.png)
+  ![Salvador Quadrades](./Projecte-GameDesign/x400/Personatges/salva-400.png)
    - **Habilitats:** Anchored, Begudes cod zombis, Multiply (Ultimate)
    - **Armes:** Raygun
 
