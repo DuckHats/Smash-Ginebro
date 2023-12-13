@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/vladiS.png-e46c6c0ee611abed137521159c4cbecb.stex"
+path="res://.import/vladiS.png-f464804f57e036f32607bc9424f0e285.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Projecte-GameDesign/Iconos/vladiS.png"
-dest_files=[ "res://.import/vladiS.png-e46c6c0ee611abed137521159c4cbecb.stex" ]
+source_file="res://Projecte-GameDesign/Icons/vladiS.png"
+dest_files=[ "res://.import/vladiS.png-f464804f57e036f32607bc9424f0e285.stex" ]
 
 [params]
 

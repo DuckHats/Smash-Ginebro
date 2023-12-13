@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rubenS.png-6e5b3a0fa9000b5baf020914baea42c3.stex"
+path="res://.import/rubenS.png-a0a9a29f961423a35da958a4262bce7b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Projecte-GameDesign/Iconos/rubenS.png"
-dest_files=[ "res://.import/rubenS.png-6e5b3a0fa9000b5baf020914baea42c3.stex" ]
+source_file="res://Projecte-GameDesign/Icons/rubenS.png"
+dest_files=[ "res://.import/rubenS.png-a0a9a29f961423a35da958a4262bce7b.stex" ]
 
 [params]
 
