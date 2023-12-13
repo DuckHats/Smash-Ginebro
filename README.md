@@ -49,7 +49,7 @@ Converteix-te en professors transformats en guerrers:
    - **Armes:** Raygun
 
 8. **???**
-![???](./Projecte-GameDesign/x400/Personatges/???-400.png)
+<!--![???](./Projecte-GameDesign/x400/Personatges/???-400.png)-->
    - **Habilitats:** Change, Buff, Configurar impressora (Ultimate)
    - **Armes:** Totes
 
