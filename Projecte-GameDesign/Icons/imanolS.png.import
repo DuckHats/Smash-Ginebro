@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/imanolS.png-30050f1f01f7451fb6b8413b46159778.stex"
+path="res://.import/imanolS.png-5c58c875a16a9d6822fd08657807814c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Projecte-GameDesign/Iconos/imanolS.png"
-dest_files=[ "res://.import/imanolS.png-30050f1f01f7451fb6b8413b46159778.stex" ]
+source_file="res://Projecte-GameDesign/Icons/imanolS.png"
+dest_files=[ "res://.import/imanolS.png-5c58c875a16a9d6822fd08657807814c.stex" ]
 
 [params]
 
