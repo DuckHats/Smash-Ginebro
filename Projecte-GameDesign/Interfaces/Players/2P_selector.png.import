@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/2P_selector.png-33ed6753d3061f0727bd82e62ad08cf9.stex"
+path="res://.import/2P_selector.png-53f0684f5f96df8222b37dc4a81d8eda.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Projecte-GameDesign/Interfaces/2P_selector.png"
-dest_files=[ "res://.import/2P_selector.png-33ed6753d3061f0727bd82e62ad08cf9.stex" ]
+source_file="res://Projecte-GameDesign/Interfaces/Players/2P_selector.png"
+dest_files=[ "res://.import/2P_selector.png-53f0684f5f96df8222b37dc4a81d8eda.stex" ]
 
 [params]
 
