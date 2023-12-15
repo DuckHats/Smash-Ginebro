@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/tilemap.png-779e8c494f8b56bac09da42890ebab72.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://Projecte-GameDesign/Backgorunds/thumbnail.jpg"
+source_file="res://Projecte-GameDesign/Backgorunds/tilemap.png"
+dest_files=[ "res://.import/tilemap.png-779e8c494f8b56bac09da42890ebab72.stex" ]
+
 [params]
 
 compress/mode=0
