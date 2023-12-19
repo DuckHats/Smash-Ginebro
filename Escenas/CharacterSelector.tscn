@@ -102,3 +102,11 @@ flip_h = true
 position = Vector2( 333, 191.75 )
 scale = Vector2( 1.9375, 1.92188 )
 texture = SubResource( 1 )
+
+[node name="Preview1" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Preview2" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
