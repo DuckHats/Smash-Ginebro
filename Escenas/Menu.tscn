@@ -10,8 +10,9 @@
 [ext_resource path="res://Projecte-GameDesign/Backgorunds/clase.png" type="Texture" id=8]
 
 [node name="Menu" type="Control"]
-anchor_right = 1.0
+anchor_right = 0.533
 anchor_bottom = 1.0
+margin_right = -0.360107
 script = ExtResource( 1 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -25,9 +26,10 @@ position = Vector2( 512, 184 )
 scale = Vector2( 1.6, 1.53544 )
 
 [node name="JugarButton" type="TextureButton" parent="."]
+anchor_right = 0.107
 margin_left = 432.0
 margin_top = 360.0
-margin_right = 480.0
+margin_right = 421.639
 margin_bottom = 377.0
 rect_scale = Vector2( 3.4, 3.2628 )
 texture_normal = ExtResource( 4 )

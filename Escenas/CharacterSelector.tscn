@@ -9,8 +9,8 @@
 [ext_resource path="res://Projecte-GameDesign/Icons/Recuadre-RubenS.png" type="Texture" id=7]
 [ext_resource path="res://Projecte-GameDesign/Icons/Recuadre-VladiS.png" type="Texture" id=8]
 [ext_resource path="res://Projecte-GameDesign/Icons/Recuadre-IvanS.png" type="Texture" id=9]
-[ext_resource path="res://Escenas/CharacterSelector.gd" type="Script" id=10]
-[ext_resource path="res://Projecte-GameDesign/Icons/Screenshot 2023-12-15 190958.png" type="Texture" id=11]
+[ext_resource path="res://Projecte-GameDesign/Icons/RandomS.png" type="Texture" id=10]
+[ext_resource path="res://Escenas/GridContainer.gd" type="Script" id=11]
 
 [sub_resource type="StreamTexture" id=1]
 load_path = "res://.import/2P_selector.png-53f0684f5f96df8222b37dc4a81d8eda.stex"
@@ -19,61 +19,86 @@ load_path = "res://.import/2P_selector.png-53f0684f5f96df8222b37dc4a81d8eda.stex
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_bottom = 2.0
-script = ExtResource( 10 )
 
-[node name="Control" type="Control" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-
-[node name="Background" type="TextureRect" parent="Control"]
+[node name="Background" type="TextureRect" parent="."]
 margin_right = 901.0
 margin_bottom = 509.0
 rect_scale = Vector2( 1.13693, 1.18238 )
 texture = ExtResource( 3 )
 expand = true
 
-[node name="Recuadre-imanolS" type="Sprite" parent="." groups=["character"]]
-position = Vector2( -49, 137 )
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 233.0
+margin_top = 160.0
+margin_right = 773.0
+margin_bottom = 224.0
+rect_pivot_offset = Vector2( 270, 32 )
+columns = 8
+script = ExtResource( 11 )
+
+[node name="TextureRect1" type="TextureRect" parent="GridContainer"]
+margin_right = 64.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 32, 32 )
 texture = ExtResource( 5 )
 
-[node name="Recuadre-IvanS" type="Sprite" parent="." groups=["character"]]
-position = Vector2( -225, 32 )
+[node name="TextureRect2" type="TextureRect" parent="GridContainer"]
+margin_left = 68.0
+margin_right = 132.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 32, 32 )
 texture = ExtResource( 9 )
 
-[node name="Recuadre-JoanS" type="Sprite" parent="." groups=["character"]]
-position = Vector2( -191, 169 )
+[node name="TextureRect3" type="TextureRect" parent="GridContainer"]
+margin_left = 136.0
+margin_right = 200.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 32, 32 )
 texture = ExtResource( 4 )
 
-[node name="Recuadre-RubenS" type="Sprite" parent="." groups=["character"]]
-position = Vector2( -225, 241 )
+[node name="TextureRect4" type="TextureRect" parent="GridContainer"]
+margin_left = 204.0
+margin_right = 268.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 32, 32 )
 texture = ExtResource( 7 )
 
-[node name="Recuadre-SalvaS" type="Sprite" parent="." groups=["character"]]
-position = Vector2( -159, 105 )
+[node name="TextureRect5" type="TextureRect" parent="GridContainer"]
+margin_left = 272.0
+margin_right = 336.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 32, 32 )
 texture = ExtResource( 2 )
 
-[node name="Recuadre-SofiaS" type="Sprite" parent="." groups=["character"]]
-position = Vector2( -299, 222 )
+[node name="TextureRect6" type="TextureRect" parent="GridContainer"]
+margin_left = 340.0
+margin_right = 404.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 32, 32 )
 texture = ExtResource( 6 )
 
-[node name="Recuadre-VladiS" type="Sprite" parent="." groups=["character"]]
-position = Vector2( -331, 137 )
+[node name="TextureRect7" type="TextureRect" parent="GridContainer"]
+margin_left = 408.0
+margin_right = 472.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 32, 32 )
 texture = ExtResource( 8 )
 
+[node name="TextureRect8" type="TextureRect" parent="GridContainer"]
+margin_left = 476.0
+margin_right = 540.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 32, 32 )
+texture = ExtResource( 10 )
+
 [node name="player1" type="Sprite" parent="."]
-position = Vector2( -92, 262 )
+position = Vector2( 265, 192 )
 rotation = -3.14159
-scale = Vector2( 2.73609, -2.6802 )
+scale = Vector2( 1.89183, -1.93583 )
 texture = ExtResource( 1 )
 flip_h = true
 
 [node name="player2" type="Sprite" parent="."]
-position = Vector2( -82.9999, 400 )
-scale = Vector2( 2.6737, 2.68013 )
+position = Vector2( 333, 191.75 )
+scale = Vector2( 1.9375, 1.92188 )
 texture = SubResource( 1 )
-
-[node name="Base" type="Sprite" parent="."]
-visible = false
-position = Vector2( 211, 209 )
-texture = ExtResource( 11 )
-offset = Vector2( 235, 0 )
