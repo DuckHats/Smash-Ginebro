@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Projecte-GameDesign/Interfaces/Players/1P_Selector.png" type="Texture" id=1]
 [ext_resource path="res://Projecte-GameDesign/Icons/Recuadre-SalvaS.png" type="Texture" id=2]
@@ -11,6 +11,8 @@
 [ext_resource path="res://Projecte-GameDesign/Icons/Recuadre-IvanS.png" type="Texture" id=9]
 [ext_resource path="res://Projecte-GameDesign/Icons/RandomS.png" type="Texture" id=10]
 [ext_resource path="res://Escenas/GridContainer.gd" type="Script" id=11]
+[ext_resource path="res://Projecte-GameDesign/Icons/IvanS.png" type="Texture" id=12]
+[ext_resource path="res://Projecte-GameDesign/Icons/imanolS.png" type="Texture" id=13]
 
 [sub_resource type="StreamTexture" id=1]
 load_path = "res://.import/2P_selector.png-53f0684f5f96df8222b37dc4a81d8eda.stex"
@@ -104,9 +106,17 @@ scale = Vector2( 1.9375, 1.92188 )
 texture = SubResource( 1 )
 
 [node name="Preview1" type="TextureRect" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
+margin_left = 65.0
+margin_top = 344.0
+margin_right = 129.0
+margin_bottom = 408.0
+rect_scale = Vector2( 3.19136, 3.43232 )
+texture = ExtResource( 13 )
 
 [node name="Preview2" type="TextureRect" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
+margin_left = 297.0
+margin_top = 344.0
+margin_right = 361.0
+margin_bottom = 408.0
+rect_scale = Vector2( 3.17793, 3.43403 )
+texture = ExtResource( 12 )
