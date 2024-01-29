@@ -14,6 +14,10 @@ config/name="Smash-Ginebro"
 run/main_scene="res://Escenas/Menu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+CharacterSelector="*res://Escenas/CharacterSelector.tscn"
+
 [display]
 
 window/stretch/mode="viewport"

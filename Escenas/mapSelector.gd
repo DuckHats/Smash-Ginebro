@@ -1,10 +1,13 @@
 extends GridContainer
 
-signal selectedChar1(value)
-signal selectedChar2(value)
+onready var character_select_vars = get_node("res://Escenas/CharacterSelector.tscn")
 
-var selected_char1 = null
-var selected_char2 = null
+onready var selected1 = get_node("SelectedChar1")
+onready var selected2 = get_node("SelectedChar2")
+
+var selected_map1 = null
+var selected_map2 = null
+
 
 var tempPos1 = 0
 var tempPos2 = 0
@@ -22,9 +25,9 @@ func _ready():
 	player2_position = 1
 		
 func _input(event):
-	
-	var player1 = get_parent().get_node("player1")
-	var player2 = get_parent().get_node("player2")
+
+	var player1 = get_node("player1")
+	var player2 = get_node("player2")
 
 	if (event.is_action_pressed("ui_left2")):
 		tempPos1 = player1_position - 1
@@ -67,12 +70,12 @@ func _input(event):
 				player2_position += 1
 	
 	if (event.is_action_pressed("ui_select")):
-		selected_char1 = get_child(player1_position)
-		emit_signal("selectedChar1", selected_char1)
+		selected_map1 = get_child(player1_position)
+		emit_signal("selectedMap1", selected_map1)
 	
 	elif (event.is_action_pressed("ui_select2")):
-		selected_char2 = get_child(player2_position)
-		emit_signal("selectedChar2", selected_char2)
+		selected_map2 = get_child(player2_position)
+		emit_signal("selectedMap2", selected_map2)
 
 	# Update the positions of the texture rects
 	var texture_rect_1 = get_child(player1_position)
@@ -80,7 +83,3 @@ func _input(event):
 
 	var texture_rect_2 = get_child(player2_position)
 	player2.global_position = texture_rect_2.get_global_position() + texture_rect_2.rect_size / 2
-	
-	if (selected_char1 != null) and (selected_char2 != null):
-		if (event.is_action_pressed("ui_accept")):
-				get_tree().change_scene("res://Escenas/MapSelector.tscn")
