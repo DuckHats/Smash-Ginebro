@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Recuadre-VladiS.png-ba7383774f6aa5f3a2c7eb8eb1402247.stex"
+path="res://.import/vladi.png-a21a92625f7c38fc825015024d783bec.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Projecte-GameDesign/Icons/Recuadre-VladiS.png"
-dest_files=[ "res://.import/Recuadre-VladiS.png-ba7383774f6aa5f3a2c7eb8eb1402247.stex" ]
+source_file="res://Projecte-GameDesign/Personatges/Vladi/Png/vladi.png"
+dest_files=[ "res://.import/vladi.png-a21a92625f7c38fc825015024d783bec.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=false
+detect_3d=true
 svg/scale=1.0

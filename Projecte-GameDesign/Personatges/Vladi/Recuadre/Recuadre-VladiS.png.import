@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Recuadre-SofiaS.png-688daa9cc6d97bcd7362e4a5b4da4e02.stex"
+path="res://.import/Recuadre-VladiS.png-b33cdcc29406f40f6140b88ef6a6beb9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Projecte-GameDesign/Icons/Recuadre-SofiaS.png"
-dest_files=[ "res://.import/Recuadre-SofiaS.png-688daa9cc6d97bcd7362e4a5b4da4e02.stex" ]
+source_file="res://Projecte-GameDesign/Personatges/Vladi/Recuadre/Recuadre-VladiS.png"
+dest_files=[ "res://.import/Recuadre-VladiS.png-b33cdcc29406f40f6140b88ef6a6beb9.stex" ]
 
 [params]
 

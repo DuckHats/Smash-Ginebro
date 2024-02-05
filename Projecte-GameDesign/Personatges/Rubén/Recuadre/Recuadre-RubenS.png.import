@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Recuadre-JoanS.png-f10753bafb1bb59c3120d29468db16fb.stex"
+path="res://.import/Recuadre-RubenS.png-e14f07ad5d6d2541e792c6675ec61eb4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Projecte-GameDesign/Icons/Recuadre-JoanS.png"
-dest_files=[ "res://.import/Recuadre-JoanS.png-f10753bafb1bb59c3120d29468db16fb.stex" ]
+source_file="res://Projecte-GameDesign/Personatges/Rubén/Recuadre/Recuadre-RubenS.png"
+dest_files=[ "res://.import/Recuadre-RubenS.png-e14f07ad5d6d2541e792c6675ec61eb4.stex" ]
 
 [params]
 
