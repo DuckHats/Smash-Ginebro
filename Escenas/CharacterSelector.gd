@@ -1,8 +1,5 @@
 extends GridContainer
 
-signal selectedChar1(value)
-signal selectedChar2(value)
-
 var selected_char1 = null
 var selected_char2 = null
 

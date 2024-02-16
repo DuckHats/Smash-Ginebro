@@ -1,2 +1,5 @@
--- Botons apretats
--- 
+- Pantalla mapes
+- Menu quickgame
+- Ingame -- moviments basics
+	 -- (vida) + (mal)
+	 -- personatges
