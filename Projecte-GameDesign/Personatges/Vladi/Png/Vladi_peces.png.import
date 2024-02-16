@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Vladi_peces.png-6150d1c69ec307e26fc52f1fb3f21438.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Projecte-GameDesign/Personatges/Vladi/Png/Vladi_peces.png"
+dest_files=[ "res://.import/Vladi_peces.png-6150d1c69ec307e26fc52f1fb3f21438.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
