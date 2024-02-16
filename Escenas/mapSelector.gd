@@ -11,6 +11,7 @@ var maxPos = 0
 func _ready():
 	for i in get_children():
 		maxPos += 1
+		print(maxPos)
 		
 	selector_position = 0
 		
@@ -30,7 +31,6 @@ func _input(event):
 	
 	elif (event.is_action_pressed("ui_select2")):
 		selected_map = get_child(selector_position)
-		emit_signal("selectedMap", selected_map)
 
 	# Update the positions of the texture rects
 	var texture_rect_1 = get_child(selector_position)
